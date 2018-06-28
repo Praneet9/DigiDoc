@@ -1,0 +1,9 @@
+Follow these commands
+
+	1) react-native bundle --dev false --platform android --entry-file index.js --bundle-output ./android/app/build/intermediates/assets/debug/index.android.bundle --	assets-dest ./android/app/build/intermediates/res/merged/debug
+
+	2) cd android
+
+	3) gradlew assembleDebug
+
+Apk can be found in this folder ==> android\app\build\outputs\apk
